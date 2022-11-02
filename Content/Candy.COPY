@@ -1,0 +1,133 @@
+Begin Object Class=/Script/Engine.Material Name="Candy"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionFresnel Name="MaterialExpressionFresnel_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_2"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionScalarParameter Name="MaterialExpressionScalarParameter_3"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureSampleParameter2D Name="MaterialExpressionTextureSampleParameter2D_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_3"
+      R=1.000000
+      MaterialExpressionEditorX=-303
+      MaterialExpressionEditorY=344
+      MaterialExpressionGuid=06DCA74C439057318410AB94493DF391
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionFresnel_0"
+      MaterialExpressionEditorX=-368
+      MaterialExpressionEditorY=512
+      MaterialExpressionGuid=745C68CD425A46442E68199281EDB9F1
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_0"
+      A=(Expression=MaterialExpressionConstant'"Candy:MaterialExpressionConstant_3"')
+      B=(Expression=MaterialExpressionScalarParameter'"Candy:MaterialExpressionScalarParameter_2"')
+      Alpha=(Expression=MaterialExpressionFresnel'"Candy:MaterialExpressionFresnel_0"')
+      MaterialExpressionEditorX=-128
+      MaterialExpressionEditorY=432
+      MaterialExpressionGuid=68007C074368A86211F1B48DD5B2E721
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_0"
+      SliderMax=1.000000
+      ParameterName="Roughness"
+      ExpressionGUID=D01B49094DF27195F768D29651E93241
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=144
+      MaterialExpressionGuid=1A5EFA52494360300C1DE38C58E6A611
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_1"
+      DefaultValue=0.500000
+      SliderMax=1.000000
+      ParameterName="Opacity"
+      ExpressionGUID=9F6A199D410676ACF9EE669BB23FB30C
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=224
+      MaterialExpressionGuid=A20269514F945DCB98CD428CD28034D9
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_2"
+      DefaultValue=1.330000
+      ParameterName="IndexOfRefraction"
+      ExpressionGUID=09118EB848227DF26F1B3F92DF60A45F
+      MaterialExpressionEditorX=-384
+      MaterialExpressionEditorY=416
+      MaterialExpressionGuid=DFFC4D3C400BC73EA690DE90094B6FC7
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionScalarParameter_3"
+      SliderMax=1.000000
+      ParameterName="Metallic"
+      ExpressionGUID=AD453B21499A27BEBD9B0DAFDADB8B32
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=3FD82C3F457C7FE6E58434B2A2BE93B6
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSampleParameter2D_0"
+      ParameterName="Normal"
+      ExpressionGUID=8EF75A674990245AEB28C68808CB751F
+      Texture=Texture2D'"/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.T_ML_Aluminum01_N"'
+      SamplerType=SAMPLERTYPE_Normal
+      MaterialExpressionEditorX=-622
+      MaterialExpressionEditorY=313
+      MaterialExpressionGuid=9A57BC9B4C33FE92BAECF8982866031F
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=1.000000,G=1.000000,B=1.000000,A=1.000000)
+      ParameterName="Color"
+      ExpressionGUID=C7496403403F4EFBF92156B09010796D
+      MaterialExpressionEditorX=-304
+      MaterialExpressionEditorY=-112
+      MaterialExpressionGuid=3EEABC10472403BD83976BA2EFC9C5F4
+      Material=Material'"Candy"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"')
+   Roughness=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"')
+   Normal=(Expression=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Opacity=(Expression=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"')
+   BlendMode=BLEND_Translucent
+   Refraction=(Expression=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"')
+   TranslucencyLightingMode=TLM_Surface
+   bUsesDistortion=True
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_0"'
+   Expressions(2)=MaterialExpressionTextureSampleParameter2D'"MaterialExpressionTextureSampleParameter2D_0"'
+   Expressions(3)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_1"'
+   Expressions(4)=MaterialExpressionLinearInterpolate'"MaterialExpressionLinearInterpolate_0"'
+   Expressions(5)=MaterialExpressionFresnel'"MaterialExpressionFresnel_0"'
+   Expressions(6)=MaterialExpressionConstant'"MaterialExpressionConstant_3"'
+   Expressions(7)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_2"'
+   Expressions(8)=MaterialExpressionScalarParameter'"MaterialExpressionScalarParameter_3"'
+   ParameterGroupData(0)=(GroupName="None")
+   ParameterGroupData(1)=(GroupName="None")
+   ParameterGroupData(2)=(GroupName="None")
+   ParameterGroupData(3)=(GroupName="None")
+   ParameterGroupData(4)=(GroupName="None")
+   ParameterGroupData(5)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=A2C4FAE14FA6CB8AADCE61A406CCD0A7
+   ReferencedTextureGuids(0)=A63A97BA4949643699998289DB900EC5
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_ML_Aluminum01_N",TextureReference="/Game/Characters/Mannequin_UE4/Textures/T_ML_Aluminum01_N.T_ML_Aluminum01_N")
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=A9E671184B0E2E99A2D87FA6FC3E3567
+End Object

@@ -1,0 +1,21 @@
+Begin Object Class=/Script/Engine.MaterialInstanceConstant Name="Candy_Inst"
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   ParameterStateId=60AD604F495ABBE71C90AFA40ECA9828
+   Parent=Material'"/Game/SuckerWeapon/Candy.Candy"'
+   ScalarParameterValues(0)=(ParameterInfo=(Name="Metallic"),ParameterValue=0.735620,ExpressionGUID=AD453B21499A27BEBD9B0DAFDADB8B32)
+   ScalarParameterValues(1)=(ParameterInfo=(Name="Opacity"),ParameterValue=0.953045,ExpressionGUID=9F6A199D410676ACF9EE669BB23FB30C)
+   ScalarParameterValues(2)=(ParameterInfo=(Name="Roughness"),ParameterValue=0.358458,ExpressionGUID=D01B49094DF27195F768D29651E93241)
+   ScalarParameterValues(3)=(ParameterInfo=(Name="RefractionDepthBias"))
+   VectorParameterValues(0)=(ParameterInfo=(Name="Color"),ParameterValue=(R=0.600000,G=0.000000,B=0.009999,A=1.000000),ExpressionGUID=C7496403403F4EFBF92156B09010796D)
+   TextureParameterValues(0)=(ParameterInfo=(Name="Normal"),ParameterValue=Texture2D'"/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N"',ExpressionGUID=8EF75A674990245AEB28C68808CB751F)
+   BasePropertyOverrides=(BlendMode=BLEND_Translucent,OpacityMaskClipValue=0.333300)
+   ReferencedTextureGuids(0)=49A59F3C4F76F9452631BCB522251171
+   TextureStreamingDataVersion=1
+   TextureStreamingData(0)=(SamplingScale=1.000000,UVChannelIndex=0,TextureName="T_ML_Rubber_Blue_01_N",TextureReference="/Game/Characters/Mannequin_UE4/Textures/T_ML_Rubber_Blue_01_N.T_ML_Rubber_Blue_01_N")
+   PreviewMesh="/Game/StarterContent/Props/SM_MatPreviewMesh_02.SM_MatPreviewMesh_02"
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=C893572942FD5D9C2E7EBD8469F98DE0
+End Object
